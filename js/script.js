@@ -1,19 +1,19 @@
 // DATA PRODUK UNTUK SLIDER
 const products = [
     {
-        img: "img1.jpg",
+        img: "assets/img1.jpg",
         name: "Blouse Lavender",
         desc: "Blouse pastel lembut dengan bahan adem dan jatuh cantik.",
         price: "Rp 150.000"
     },
     {
-        img: "img2.jpg",
+        img: "assets/img2.jpg",
         name: "Blouse Motif Sakura",
         desc: "Motif floral lembut yang manis dan feminin.",
         price: "Rp 165.000"
     },
     {
-        img: "img3.jpg",
+        img: "assets/img3.jpg",
         name: "Blouse Ruffle Pink",
         desc: "Manis tapi tetap elegan. Blouse Ruffle Pink hadir dengan detail ruffle yang lembut dan potongan flowy yang jatuh cantik di tubuh. Motif floral bernuansa pink memberi kesan fresh dan feminin, pas untuk kamu yang ingin tampil effortless tapi tetap standout.",
         price: "Rp 175.000"
@@ -64,4 +64,5 @@ categories.forEach(li => {
         categories.forEach(c => c.classList.remove("active"));
         li.classList.add("active");
     };
+
 });
